@@ -7,8 +7,13 @@
 	"background": {
 		"scripts": ["link_button.js"]
 	},
-
-	"permissions": ["tabs"],
+	"content_scripts": [
+		{
+		  "matches": ["https://profile.intra.42.fr/*"],
+		  "js": ["intra.js"]
+		}
+	  ],
+	"permissions": ["tabs", "activeTab"],
 	"browser_action": {
 		"default_icon": "icon_128px.png",
 		"default_title": "Go to E2R5_TV!"
