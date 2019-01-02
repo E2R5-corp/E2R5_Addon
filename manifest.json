@@ -2,14 +2,14 @@
 	"manifest_version": 2,
 
 	"name": "E2R5_TV",
-	"description": "Open E2R5_TV youtube page",
+	"description": "E2R5 Extension",
 	"version": "1.0",
 	"background": {
 		"scripts": ["link_button.js"]
 	},
 	"content_scripts": [
 		{
-		  "matches": ["https://profile.intra.42.fr/*"],
+		  "matches": ["https://intra.42.fr/*"],
 		  "js": ["intra.js"]
 		}
 	  ],
