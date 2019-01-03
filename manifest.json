@@ -1,8 +1,7 @@
 {
 	"manifest_version": 2,
-
-	"name": "E2R5_TV",
-	"description": "E2R5 Extension",
+	"name": "E2R5",
+	"description": "Open E2R5_TV youtube page, The logo of the E2R5tv appears on the intra",
 	"version": "1.0",
 	"background": {
 		"scripts": ["link_button.js"]
@@ -16,6 +15,6 @@
 	"permissions": ["tabs", "activeTab"],
 	"browser_action": {
 		"default_icon": "icon_128px.png",
-		"default_title": "Go to E2R5_TV!"
+		"default_title": "E2R5"
 	}
 }
