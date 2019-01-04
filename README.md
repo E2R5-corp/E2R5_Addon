@@ -1,4 +1,4 @@
-#E2R5
+# E2R5
 
 ## An extension for browser based on chromium
 
