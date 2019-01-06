@@ -3,7 +3,7 @@
 
 	"name": "E2R5",
 	"description": "Open E2R5_TV youtube page, The logo of the E2R5tv appears on the intra",
-	"version": "1.0",
+	"version": "1.1",
 	"background": {
 		"scripts": ["link_button.js"]
 	},
