@@ -1,8 +1,6 @@
 (function () {
     var img = document.createElement("img")
     img.src = "https://i.imgur.com/WOmX9KB.png"
-    img.width = 180
-    img.height = 180
     img.width = 160
     img.height = 160
         
