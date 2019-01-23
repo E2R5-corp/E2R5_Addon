@@ -5,7 +5,7 @@ function hashCode(s){return s.split("").reduce(function(a,b){a=((a<<5)-a)+b.char
     if (user.includes(hashCode(login)))
     {
         var img = document.createElement("img")
-        img.src = "https://i.imgur.com/WOmX9KB.png"
+        img.src = "https://i.imgur.com/1vtZlTB.png"
         img.width = 64
         img.height = 64
         
@@ -15,7 +15,7 @@ function hashCode(s){return s.split("").reduce(function(a,b){a=((a<<5)-a)+b.char
 	else 
 	{
 		var img = document.createElement("img")
-        img.src = "https://i.imgur.com/IVrnbTp.png"
+        img.src = "https://i.imgur.com/SJepEyK.png"
         img.width = 64
         img.height = 64
 

@@ -1,16 +1,16 @@
 (function () {
     var img = document.createElement("img")
-    img.src = "https://i.imgur.com/WOmX9KB.png"
+    img.src = "https://i.imgur.com/1vtZlTB.png"
     img.width = 160
     img.height = 160
         
     var img2 = document.createElement("img")
-    img2.src = "https://i.imgur.com/WOmX9KB.png"
+    img2.src = "https://i.imgur.com/1vtZlTB.png"
     img2.width = 50
     img2.height = 50
 
     var img3 = document.createElement("img")
-    img3.src = "https://i.imgur.com/WOmX9KB.png"
+    img3.src = "https://i.imgur.com/1vtZlTB.png"
     img3.width = 50
     img3.height = 50
 
