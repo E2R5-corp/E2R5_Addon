@@ -7,5 +7,9 @@
 *	The logo of the E2R5tv appears on stud42
 *	The location color changes if you are in the good area or not
 
-*Norminet honorary member*
+## Link
+* Chrome: https://chrome.google.com/webstore/detail/e2r5/nfmmamfhdenjopjbcndfjjaplbapbbei
+* Firefox: https://addons.mozilla.org/fr/firefox/addon/e2r5/
+
+
 *Improvements and features will come*
