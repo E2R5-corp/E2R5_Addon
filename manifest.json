@@ -3,7 +3,7 @@
 
 	"name": "E2R5",
 	"description": "Open E2R5_TV youtube page, The logo of the E2R5tv appears on intra42 and on stud42",
-	"version": "1.4.1",
+	"version": "1.4.2",
 	"content_scripts": [
 		{
 		  "matches": ["https://profile.intra.42.fr/*"],
@@ -17,7 +17,7 @@
 	"permissions": ["tabs", "activeTab"],
 	"browser_action": {
 		"default_popup" :"popup.html",
-		"default_icon": "icon_128px.png",
+		"default_icon": "e2r5_test.png",
 		"default_title": "E2R5"
 	}
 }
