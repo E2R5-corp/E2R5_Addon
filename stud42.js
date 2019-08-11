@@ -41,7 +41,7 @@
     r5midleft.textContent = ""
     r5midleft.append(img4)
 
-    var r5midright = clusters[1].children[8].children[17]
+    var r5midright = clusters[1].children[8].children[18]
     r5midright.textContent = ""
     r5midright.append(img5)
 
