@@ -1,9 +1,11 @@
 (function () {
+    document.getElementsByClassName("sidebar-menu-inner")[0].getElementsByTagName("a")[6].remove()
+
     var img = document.createElement("img")
     img.src = "https://i.imgur.com/1vtZlTB.png"
     img.width = 160
     img.height = 160
-        
+
     var img2 = document.createElement("img")
     img2.src = "https://i.imgur.com/X1QBzRU.png"
     img2.width = 50
@@ -26,7 +28,7 @@
 
     var src = document.getElementsByClassName("credits")
     src[0].prepend(img)
-    
+
     var clusters = document.getElementsByTagName("tbody")
 
     var r5right = clusters[1].children[8].children[0]
@@ -46,8 +48,9 @@
     r5midright.append(img5)
 
     var location = document.getElementsByClassName("connected")[0].children[1].children[0]
-    if (location.textContent.match(/e2r[4-6]/g))
+    if ( location.textContent.match(/e2r[4-6]/g))
         location.style.color = "green"
     else
         location.style.color = "red"
+
 })();
