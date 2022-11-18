@@ -1,40 +1,42 @@
 (function () {
-   document.getElementsByClassName("sidebar-menu-inner") && document.getElementsByClassName("sidebar-menu-inner")[0].getElementsByTagName("a")[6].remove()
-   
-    var img = document.createElement("img")
+    document.getElementsByClassName("sidebar-menu-inner") && document.getElementsByClassName("sidebar-menu-inner")[0].getElementsByTagName("a")[6].remove()
+
+    let img = document.createElement("img")
     img.src = "https://i.imgur.com/1vtZlTB.png"
     img.width = 160
     img.height = 160
 
-    var img2 = document.createElement("img")
+    let img2 = document.createElement("img")
     img2.src = "https://i.imgur.com/X1QBzRU.png"
     img2.width = 50
     img2.height = 50
 
-    var img3 = document.createElement("img")
+    let img3 = document.createElement("img")
     img3.src = "https://i.imgur.com/X1QBzRU.png"
     img3.width = 50
     img3.height = 50
 
-    var src = document.getElementsByClassName("credits")
-    src[0].prepend(img)
+    const src = document.getElementsByClassName("credits")
+    let link = document.createElement('a');
+    link.setAttribute('href', "https://www.e2r5.tech/");
 
-    var clusters = document.getElementsByTagName("tbody")
+    src[0].appendChild(link).appendChild(img)
 
-    var r5right = clusters[1].children[8].children[0]
+    const clusters = document.getElementsByTagName("tbody")
+
+    let r5right = clusters[1].children[8].children[0]
     r5right.textContent = ""
-    r5right.append(img2)
+    r5right.appendChild(img2)
 
-    var r5left = clusters[1].children[8].children[26]
+    let r5left = clusters[1].children[8].children[26]
     r5left.textContent = ""
-    r5left.append(img3)
+    r5left.appendChild(img3)
 
-    var location = document.getElementsByClassName("connected")[0].children[1].children[0]
+    const location = document.getElementsByClassName("connected")[0].children[1].children[0]
 
-    if (location) 
-    {
-        if ( location.textContent.match(/e2r[4-6]/g))
-        location.style.color = "green"
+    if (location) {
+        if (location.textContent.match(/e2r[4-6]/g))
+            location.style.color = "green"
         else
             location.style.color = "red"
     }
