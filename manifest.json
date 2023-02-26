@@ -2,14 +2,14 @@
 	"manifest_version": 3,
 	"name": "E2R5",
 	"description": "The best extension for 42 ",
-	"version": "2.1.0",
+	"version": "2.1.1",
 	"content_scripts": [
 		{
 			"matches": [
 				"https://profile.intra.42.fr/*"
 			],
 			"js": [
-				"intra.js"
+				"src/intra.js"
 			]
 		},
 		{
@@ -17,13 +17,16 @@
 				"https://stud42.fr/*"
 			],
 			"js": [
-				"stud42.js"
+				"src/stud42.js"
 			]
 		}
 	],
 	"action": {
-		"default_popup": "popup.html",
-		"default_icon": "e2r5_test.png",
+		"default_popup": "src/popup.html",
+		"default_icon": "assets/e2r5_test.png",
 		"default_title": "E2R5"
+	},
+	"icons": {
+		"128": "assets/e2r5_128.png"
 	}
 }

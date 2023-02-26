@@ -35,7 +35,7 @@
     const location = document.getElementsByClassName("connected")[0].children[1].children[0]
 
     if (location) {
-        if (location.textContent.match(/e2r[4-6]/g))
+        if (location.textContent && location.textContent.match(/e2r[4-6]/g))
             location.style.color = "green"
         else
             location.style.color = "red"
