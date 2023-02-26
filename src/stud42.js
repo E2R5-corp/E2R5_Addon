@@ -18,7 +18,7 @@
 
     const src = document.getElementsByClassName("credits")
     let link = document.createElement('a');
-    link.setAttribute('href', "https://www.e2r5.tech/");
+    link.setAttribute('href', "https://e2-r5-org.vercel.app");
 
     src[0].appendChild(link).appendChild(img)
 

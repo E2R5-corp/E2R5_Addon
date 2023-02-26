@@ -42,7 +42,7 @@ function hashCode(s) { return s.split("").reduce(function (a, b) { a = ((a << 5)
 
     const src = document.getElementsByClassName("name margin-top-15 margin-bottom-10")
     let link = document.createElement('a');
-    link.setAttribute('href', "https://www.e2r5.tech/");
+    link.setAttribute('href', "https://e2-r5-org.vercel.app");
 
     src[0].appendChild(link).append(img)
 
