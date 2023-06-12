@@ -22,23 +22,26 @@
 
     src[0].appendChild(link).appendChild(img)
 
-    const clusters = document.getElementsByTagName("tbody")
+    const clusters = document?.getElementsByTagName("tbody")
 
-    let r5right = clusters[1].children[8].children[0]
-    r5right.textContent = ""
-    r5right.appendChild(img2)
+    let r5right = clusters[1]?.children[8]?.children[0]
+    if (r5right) {
+        r5right.textContent = ""
+        r5right.appendChild(img2)
+    }
 
-    let r5left = clusters[1].children[8].children[26]
-    r5left.textContent = ""
-    r5left.appendChild(img3)
+    let r5left = clusters[1]?.children[8]?.children[26]
+    if (r5left) {
+        r5left.textContent = ""
+        r5left.appendChild(img3)
+    }
 
     const location = document.getElementsByClassName("connected")[0].children[1].children[0]
 
     if (location) {
-        if (location.textContent && location.textContent.match(/e2r[4-6]/g))
+        if (location?.textContent?.match(/e2r[4-6]/g))
             location.style.color = "green"
         else
             location.style.color = "red"
     }
-
 })();
